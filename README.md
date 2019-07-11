@@ -163,3 +163,13 @@ In the final section of the workshop we will learn how to add our JavaScript and
 4. Create a `Posts()` function that returns markup for posts
 5. Call `wp.element.render` for `<Posts />` to load inside of `#react-template .posts`
 6. This should replace the server side rendered posts with a React app with posts
+
+## Further Learning
+
+To learn more about JavaScript, React and how to use it with WordPress, I suggest the following resources:
+
+1. [JavaScript Language Basics Course](https://javascriptforwp.com/product/javascript-basics/)
+2. [JavaScript Explained Book](https://javascriptexplained.com/)
+3. [React Explained Book & Course](https://javascriptforwp.com/product/react-bundle/)
+4. [Enqueuing JavaScript in WordPress Themes and Plugins](https://javascriptforwp.com/product/enqueuing-javascript-in-wordpress/)
+5. [Gutenberg Block Development](https://javascriptforwp.com/product/gutenberg-block-development-course/)
