@@ -16,6 +16,47 @@ In this section we will get our development environments up and running with the
 
 In this section we will begin learning some JavaScript in order to build a custom lightbox from scratch.
 
+### Step 00 - Practice
+
+`js/step-00-practice.html`
+
+In this exercise we practice writing some basic JavaScript and getting information from the user.
+
+### Step 01 - Button Click
+
+`js/step-01-button-click.html`
+
+In this exercise we learn how to take an action when the user clicks on a button.
+
+### Step 02 - Adding Markup with JavaScript
+
+`js/step-02-adding-markup.html`
+
+Here we create a button on the fly with JavaScript and add it to the page.
+
+### Step 03 - Updating the Page with JavaScript
+
+`js/step-03-updating-the-page.html`
+
+Now we look at how to get user input and use it to modify existing content on the page.
+
+### Step 04 - Making a Lightbox Overlay
+
+`js/step-04-lightbox-overlay.html`
+
+In this step we start from scratch building a lightbox overlay and displaying it when an image is clicked.
+
+### Step 05 - Adding an Image to the Lightbox
+
+`js/step-05-lightbox-image.html`
+
+Here we take the overlay we designed and dynamically add the image that was clicked on to it, along with the alt text.
+
+### Step 06 - Closing the Lightbox
+
+`js/step-06-lightbox-close.html`
+
+In our final steps we learn some tricks for closing a lightbox based on where the user clicks or what keys they press.
 
 ## Part 3 - React
 
