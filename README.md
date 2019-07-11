@@ -1,4 +1,4 @@
-# 2019 JavaScript, React & WordPress Workshop for Beginners
+# JavaScript, React & WordPress Workshop for Beginners
 
 This workshop is from the [2019 JavaScript for WordPress Conference](https://javascriptforwp.com/conference) and includes a day long worth of exercises and projects to help you get up and running with JavaScript, React and how to use them in WordPress.
 

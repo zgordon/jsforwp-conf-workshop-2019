@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Learning JavaScript</title>
+    <style>
+      .lightbox img {
+        max-width: 200px;
+      }
+      .lightbox img:hover {
+        cursor: pointer;
+      }
+      #overlay {
+        background: #00000080;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <section class="lightbox">
+        <img
+          src="images/artem-sapegin-8c6eS43iq1o-unsplash.jpg"
+          alt="Photo of Mountains and Lake by Artem Sapegin on Unsplash"
+        />
+        <img
+          src="images/cristina-gottardi-R4y_E5ZQDPg-unsplash.jpg"
+          alt="Photo of Mountain Caynon at Sunset by Cristina Gottardi on Unsplash"
+        />
+        <img
+          src="images/ashley-knedler-OwpgxILRR7c-unsplash.jpg"
+          alt="Photo of Lower Antelope Caynon by Ashley Knedler on Unsplash"
+        />
+      </section>
+    </div>
+  </body>
+  <script>
+    // Get the body of the page
+    const body = document.querySelector(`body`);
+    // Get all of the images
+    const images = document.querySelectorAll(`.lightbox img`);
+
+    // For each image add an event
+    images.forEach(image => image.addEventListener(`click`, openOverlay));
+
+    // Create a function for what the event should do
+    function openOverlay() {
+      // Create markup for an overlay
+      const overlayMarkup = `<div id="overlay"></div>`;
+
+      // Add the overlay before the closing of the body tag
+      body.insertAdjacentHTML(`beforeend`, overlayMarkup);
+    }
+  </script>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Learning JavaScript</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Welcome!</h1>
+    </div>
+  </body>
+  <script>
+    // Get the main markup container
+    const container = document.querySelector(`#app`);
+    // Get the header
+    const header = document.querySelector(`#app h1`);
+
+    // Create the markup for the button
+    const buttonMarkup = `<button id="get-user-name">Get Use Name</button>`;
+    // Add the button to the page
+    container.insertAdjacentHTML(`beforeend`, buttonMarkup);
+
+    // Get the button from the page
+    const button = document.querySelector(`#get-user-name`);
+    // Add an event to the button
+    button.addEventListener(`click`, getUserName);
+
+    // Create a function for what the event should do
+    function getUserName() {
+      // Get the user name with a prompt
+      const userName = prompt(`Please enter your full name`);
+
+      // Create a variable for the message to display
+      const message = `Hi ${userName}!`;
+
+      // Alert the message
+      alert(message);
+
+      // Update the header markup with the message
+      header.innerHTML = message;
+    }
+  </script>
+</html>
