@@ -1,0 +1,17 @@
+/*
+Theme Name: Step 02 - Server Side Rendered
+Theme URI: https://javascriptforwp.com/conference/workshop
+Template: twentynineteen
+Author: Zac Gordon
+Author URI: https://javascriptforwp.com/
+Description: This is a child theme for the default 2019 theme. This theme demos how to add React to a theme.
+Tags: one-column,flexible-header,accessibility-ready,custom-colors,custom-menu,custom-logo,editor-style,featured-images,footer-widgets,rtl-language-support,sticky-post,threaded-comments,translation-ready
+Version: 1.0.1562817739
+Updated: 2019-07-11 04:02:19
+
+*/
+
+#react-template .entry-content h3,
+#react-template .entry-content .excerpt {
+  display: none;
+}

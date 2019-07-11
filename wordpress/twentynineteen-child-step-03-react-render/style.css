@@ -1,0 +1,55 @@
+/*
+Theme Name: Step 03 - React Render
+Theme URI: https://javascriptforwp.com/conference/workshop
+Template: twentynineteen
+Author: Zac Gordon
+Author URI: https://javascriptforwp.com/
+Description: This is a child theme for the default 2019 theme. This theme demos how to add React to a theme.
+Tags: one-column,flexible-header,accessibility-ready,custom-colors,custom-menu,custom-logo,editor-style,featured-images,footer-widgets,rtl-language-support,sticky-post,threaded-comments,translation-ready
+Version: 1.0.1562817739
+Updated: 2019-07-11 04:02:19
+
+*/
+
+
+
+#react-template .entry-content h3,
+#react-template .entry-content .excerpt {
+  display: none;
+}
+
+#react-template img.wp-post-image {
+  max-width: 200px;
+}
+
+#react-template img.wp-post-image:hover {
+  cursor: pointer;
+}
+
+#react-template-overlay {
+  background: #00000080;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+#react-template-overlay .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  background: #fff;
+  padding:10px;
+  z-index: 200;
+  border: 2px #00000090 solid;
+}
+
+#react-template-overlay img {
+  width: 100%;
+  max-width: 600px;
+}
